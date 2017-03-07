@@ -11,6 +11,7 @@ if (!window.location.hash) {
     );
 
     fitbitAccessToken = fragmentQueryParameters.access_token;
+    console.log(fitbitAccessToken);
 }
 
 // Make an API request and graph it
