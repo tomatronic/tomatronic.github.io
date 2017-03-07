@@ -2,7 +2,7 @@
 var fitbitAccessToken;
 
 if (!window.location.hash) {
-    window.location.replace('http://www.tomthepom.co.uk/fitbit.html#access_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0NDdRTkMiLCJhdWQiOiIyMjhDTkwiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJzZXQgcmFjdCBybG9jIHJ3ZWkgcmhyIHJudXQgcnBybyByc2xlIiwiZXhwIjoxNDg5NDkzNDA1LCJpYXQiOjE0ODg4OTU5OTd9.1RK9tscnQDaPS_-cjRpF18hh1z8AmNrB78OA2pUSE2M&user_id=447QNC&scope=sleep+settings+nutrition+activity+social+heartrate+profile+weight+location&token_type=Bearer&expires_in=597408');
+    window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228CNL&redirect_uri=http%3A%2F%2Fwww.tomthepom.co.uk%2Ffitbit.html&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800');
 } else {
     var fragmentQueryParameters = {};
     window.location.hash.slice(1).replace(
