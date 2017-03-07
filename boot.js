@@ -2,7 +2,7 @@
 var fitbitAccessToken;
 
 if (!window.location.hash) {
-    window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=228CNL&redirect_uri=http%3A%2F%2Fwww.tomthepom.co.uk%2Ffitbit.html&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800');
+    window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=code&client_id=228CNL&redirect_uri=http%3A%2F%2Fwww.tomthepom.co.uk%2Ffitbit.html&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800');
 } else {
     var fragmentQueryParameters = {};
     window.location.hash.slice(1).replace(
