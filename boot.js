@@ -70,7 +70,7 @@ var graphHeartRate = function(timeSeries) {
 
     chart.draw(data, options);
 }
-var fetchDate = "https://api.fitbit.com/1/user/447QNC/activities/heart/date/"+$yesterday+".json";
+var fetchDate = "https://api.fitbit.com/1/user/447QNC/activities/heart/date/"+$yesterday+"/1d.json";
 console.log(fetchDate);
 fetch(
     fetchDate,
