@@ -1,6 +1,6 @@
 // If user hasn't authed with Fitbit, redirect to Fitbit OAuth Implicit Grant Flow
 
-var $today = getDate();
+var $today = new Date();
 $yesterday = new Date($today);
 $yesterday.setDate($today.getDate() - 1);
 var $dd = $yesterday.getDate();
