@@ -1,4 +1,15 @@
 // If user hasn't authed with Fitbit, redirect to Fitbit OAuth Implicit Grant Flow
+
+var $today = getDate();
+$yesterday = new Date($today);
+$yesterday.setDate($today.getDate() - 1);
+var $dd = $yesterday.getDate();
+var $mm = $yesterday.getMonth()+1; //January is 0!
+
+var $yyyy = $yesterday.getFullYear();
+if($dd<10){$dd='0'+dd} if($mm<10){$mm='0'+$mm} $yesterday = $dd+'/'+$mm+'/'+$yyyy;
+
+
 var fitbitAccessToken;
 
 if (!window.location.hash) {
@@ -60,7 +71,7 @@ var graphHeartRate = function(timeSeries) {
 }
 
 fetch(
-    'https://api.fitbit.com/1/user/447QNC/activities/heart/date/2017-03-01/1d/15min/time/1:00/23:00.json',
+    'https://api.fitbit.com/1/user/447QNC/activities/heart/date/('$yesterday').json',
     {
         headers: new Headers({
             'Authorization': 'Bearer ' + fitbitAccessToken
