@@ -7,7 +7,7 @@ var $dd = $yesterday.getDate();
 var $mm = $yesterday.getMonth()+1; //January is 0!
 
 var $yyyy = $yesterday.getFullYear();
-if($dd<10){$dd='0'+dd} if($mm<10){$mm='0'+$mm} $yesterday = $dd+'/'+$mm+'/'+$yyyy;
+if($dd<10){$dd='0'+$dd} if($mm<10){$mm='0'+$mm} $yesterday = $dd+'/'+$mm+'/'+$yyyy;
 
 console.log($yesterday);
 
