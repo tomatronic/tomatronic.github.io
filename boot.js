@@ -72,7 +72,7 @@ var graphHeartRate = function(timeSeries) {
 }
 
 fetch(
-    'https://api.fitbit.com/1/user/447QNC/activities/heart/date/('$yesterday').json',
+    "https://api.fitbit.com/1/user/447QNC/activities/heart/date/"+$yesterday+".json",
     {
         headers: new Headers({
             'Authorization': 'Bearer ' + fitbitAccessToken
