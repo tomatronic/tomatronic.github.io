@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +7,22 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Tom the Pom - Portfolio of Thomas Spencer</title>
-  <meta name="description" content="Tom the Pom is the portfolio of Thomas Spencer, a Brighton based designer and all round digital enthusiast">
-  <meta name="author" content="Thomas Spencer">
+  <title>Tom the Pom</title>
+  <meta name="description" content="The portfolio site of Tom Spencer, a UK based digital designer.">
+  <meta name="author" content="Tom Spencer">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/fontawesome-pro-regular.css">
+  <link rel="stylesheet" href="css/fontawesome-pro-core.css">
+
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,154 +30,183 @@
 
 </head>
 <body>
+  <div class="navbar">
+    <div class="container">
+      <div class="logo">
+        Tom Spencer
+      </div>
+				<div class="menu-toggle">
+					<span></span>
+          <span></span>
+          <span></span>
+				</div>
+			<div class="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="header">
-    <div class="row">
-          <div class="twelve">
-            <div id="globalNav" class="nav">
-              <div class="container">
-              <div class="pull-left"><h1 class="site-title">Tom the Pom</h1></div>
-              <div class="pull-right">
-                <ul class="nav-list">
-                  <li>Home</li>
-                  <li>About Me</li>
-                  <li>My Work</li>
-                  <li>Blog</li>
-                  <li>Contact Me</li>
-                </ul>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="container">
-        <div class="row bgWhite intro">
-      <div class="twelve columns">
-        <h3>About Tom</h3>
-        <p class="center">This will be a very quick overview. Link to a more detialed 'About me' section.</p>
-      </div>
-    </div>
-      </div>
-  </div>
-
-
+<div class="outer-intro">
   <div class="container">
     <div class="row">
+      <div class="intro">
+        <h1>DEFAULT PAGE</h1>
+        <h2>Digital Designer based in Brighton, UK.<br/>
+Specialising in HTML Email, Landing pages & User Interfaces</h2>
+      </div>
+    </div>
+  </div>
+  <div class="scroll bounce"><a href="#projects" style="color: #FFFFFF;"><i class="far fa-angle-down"></i></a></div>
+
+</div>
+<div name="projects"></div>
+<div class="main-content">
+  <div class="containerPortfolio">
+    <div class="row">
+      <h3 id="projects">PROJECTS</h3>
+    </div>
+    <div class="row">
+      <div class="projectGallery">
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="portfolioItem">
+            <img src="images/emailTemplates.png" alt="Email Templates" />
+            <div class="caption">
+              <h3>Email Templates</h3>
+              <h5>Design and Coding</h5>
+            </div>
+            <a href="projects/email.html"></a>
+          </div>
+          <div class="portfolioItem">
+            <img src="images/preferenceCentres.png" alt="Preference Centres" />
+            <div class="caption">
+              <h3>Preference Centres</h3>
+              <h5>Design and Coding</h5>
+            </div>
+            <a href="projects/preferenceCentre.html"></a>
+          </div>
+          <div class="portfolioItem">
+            <img src="images/emailTemplates.png" alt="Email Templates" />
+            <div class="caption">
+              <h3>Daily UI Challenge</h3>
+              <h5>Design &amp; Animation</h5>
+            </div>
+            <a href="projects/dailyui.html"></a>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact">
+        <a href="">I am always open to a new project, why not drop me a message?</a>
+      </div>
+    </div>
+  </div>
+  <div class="containerPortfolio">
+    <div class="row">
+      <h3 id="about">ABOUT</h3>
+      <div class="underline-center"></div>
+    </div>
+    <div class="row flex pb30">
+      <div class="six columns">
+        <h4>WHO AM I?</h4>
+        <div class="underline"></div>
+        <p>My name is Thomas Spencer, I currently work in Brighton primarily developing emails and landing pages for a range of high profile clients. For a full overview of my skills and experiences you can find my CV here or a range of examples of my work here. Please do get in touch if you would like to discuss a project!</p>
+      </div>
+      <div class="six columns">
+        <img src="http://via.placeholder.com/350x150" class="portfolioImage" />
+      </div>
+    </div>
+    <div class="row flex pb30">
+      <div class="six columns">
+        <img src="http://via.placeholder.com/350x150" class="portfolioImage" />
+      </div>
+      <div class="six columns">
+        <h4>WHERE HAVE I BEEN?</h4>
+        <div class="underline"></div>
+        <p>I graduated from the University of Brighton in 2011 after studying ‘Digital Media Design’, this course really did help bring my creativity to a whole new level. Within the course I learnt how to use the majority of the Adobe suite and completed a range of projects from website design and builds to the production of small films.</p>
+        <p>I am currently working for a major ESP in Brighton as a Senior Creative Developer. The role entails a range of skills including but not limited to the designing and building of emails, assisting the internal marketing team with a range of print and digital projects and reviewing team processes to ensure we are working as efficiently as possible.</p>
+      </div>
+    </div>
+    <div class="row">
       <div class="twelve column">
-        <h4>My Work</h4>
+        <h3>WHAT I USE MOST DAYS</h3>
+        <div class="underline-center"></div>
       </div>
     </div>
-    <div class="row">
-      <div class="four columns">
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
-        </div>
-      </div>
-       <div class="four columns">
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
-        </div>
-      </div>
-      <div class="four columns">
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
-        </div>
-      </div>
-    </div>
+    <div class="row pb30">
+      <div class="six columns">
         <div class="row">
-      <div class="four columns">
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
+          <div class="four columns center-img"><img src="images/sketch_icon.png" /></div>
+          <div class="eight columns"><p>I use sketch for a mixture of projects including wireframing, initial mockups, illustration and asset creation.</p></div>
         </div>
       </div>
-       <div class="four columns" >
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
+      <div class="six columns">
+        <div class="row">
+          <div class="four columns center-img"><img src="images/atom_icon.png" /></div>
+          <div class="eight columns"><p>For coding I use atom, I find it is really intuative. I will use it in the deveopment of landing pages, email development and website development.</p></div>
         </div>
       </div>
-       <div class="four columns" >
-        <div class="card">
-          <img src="https://unsplash.it/400/400/" alt="work1" />
-            <div class="cardContain">
-              <h4><b>Project name</b></h4>
-              <p>Description</p>
-            </div>
+    </div>
+    <div class="row pb30">
+      <div class="six columns">
+        <div class="row">
+          <div class="four columns center-img"><img src="images/ps_icon.png" /></div>
+          <div class="eight columns"><p>I tend to use photoshop for creating email and website designs that require a little more work with imagery.</p></div>
+        </div>
+      </div>
+      <div class="six columns">
+        <div class="row">
+          <div class="four columns center-img"><img src="images/id_icon.png" /></div>
+          <div class="eight columns"><p>The majority of print work I create is within InDesign, this can include brochures, case studies and posters.</p></div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="twelve column" >
-        <h4>Other things I do</h4>
+      <div class="six columns">
+        <div class="row">
+          <div class="four columns center-img"><img src="images/ae_icon.png" /></div>
+          <div class="eight columns"><p>Any animation I create tends to be in after effects, I also think that After effects is my favourite of the Adobe suite.</p></div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="four columns" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-       <div class="four columns" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-       <div class="four columns" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="twelve column" >
-        <h4>Blog</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="four columns" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-       <div class="four columns bgWhite" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-       <div class="four columns" >
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="six columns">
+        &nbsp;
       </div>
     </div>
   </div>
-  <div class="bgBlack">
-    <div class="container">
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="six columns"><h5>Tom Spencer 2017</h5></div>
+      <div class="six columns">
         <div class="row">
-      <div class="one-half column" >
-        <h4>Get in touch</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+          <div class="ten columns">
+            &nbsp;
+          </div>
+          <div class="one column">
+            <a href="https://www.linkedin.com/in/thomas-spencer/" target="_blank"><img src="images/linkedin_sm.png" /></a>
+          </div>
+          <div class="one column">
+            <a href="https://dribbble.com/tomatronic" target="_blank"><img src="images/dribbble_sm.png" /></a>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
   </div>
+</div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
