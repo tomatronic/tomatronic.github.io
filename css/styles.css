@@ -13,6 +13,9 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5B86E5', endColorstr='#36d1dc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .email{
