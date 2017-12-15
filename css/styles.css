@@ -211,6 +211,10 @@ h5{
     align-items: center;
   }
 
+.flexSwitch{
+  flex-direction: reverse-column;
+  }
+
 .nav{
   width: 60%;
 }
@@ -566,8 +570,6 @@ img {
   100%{transform: perspective(400px)rotate(0deg);animation-timing-function:ease}
 }
 
-
-/* COMMON DEMO STYLE */
 .page-view {
   height: 100%;
   width: 100%;
@@ -611,10 +613,6 @@ img {
             mask-position: 100% 0;
   }
 }
-
-
-/* SPECIFIC DEMO STYLE */
-/* DEMO 1 */
 
 .browser-mockup {
   background: url(http://www.tomthepom.co.uk/images/email/mask2.png) no-repeat -9999px -9999px;
