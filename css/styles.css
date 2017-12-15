@@ -36,11 +36,8 @@ body{
   padding-bottom: 30px;
 }
 
-.flex{
-  display: block;
-}
-
 .flexSwitch{
+  display: flex;
   flex-direction: column-reverse;
   }
 
