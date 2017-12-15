@@ -40,6 +40,10 @@ body{
   display: block;
 }
 
+.flexSwitch{
+  flex-direction: column-reverse;
+  }
+
 .full-width{
   margin: 0 -30px 30px;
   width: auto;
@@ -211,9 +215,9 @@ h5{
     align-items: center;
   }
 
-.flexSwitch{
-  flex-direction: reverse-column;
-  }
+  .flexSwitch{
+    flex-direction: row;
+    }
 
 .nav{
   width: 60%;
