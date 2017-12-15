@@ -517,3 +517,173 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
 .shots a{
   text-decoration: none;
 }
+
+/*********CODE FOR EMAIL SLIDESHOW**********/
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0;
+  max-width: 500px;
+  height: 300px;
+  animation: twist 2s 1s infinite;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+    
+
+.browser-mockup > * {
+  display: block;
+}
+
+.browser-mockup {
+  margin: 2em;
+  flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes twist{
+  0%{transform: perspective(400px)rotate(0deg);animation-timing-function:ease}
+  50%{transform: perspective(400px)rotate(0deg);animation-timing-function:ease}
+  60%{transform:perspective(400px) rotateX(0.5deg) rotateY(0.5deg);animation-timing-function:ease}
+    70%{transform:perspective(400px) rotateX(-0.5deg) rotateY(-0.5deg);animation-timing-function:ease}
+  80%{transform:perspective(400px) rotateX(0.1deg) rotateY(0.1deg);animation-timing-function:ease}
+  90%{transform:perspective(400px) rotateX(-0.1deg) rotateY(-0.1deg)}to{transform:perspective(400px)animation-timing-function:ease}
+  100%{transform: perspective(400px)rotate(0deg);animation-timing-function:ease}
+}
+
+
+/* COMMON DEMO STYLE */
+.page-view {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page-view .project {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-view .project:nth-child(1) {
+  z-index: 30;
+}
+
+
+@-webkit-keyframes mask-play {
+  from {
+    -webkit-mask-position: 0% 0;
+            mask-position: 0% 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+            mask-position: 100% 0;
+  }
+}
+
+@keyframes mask-play {
+  from {
+    -webkit-mask-position: 0% 0;
+            mask-position: 0% 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+            mask-position: 100% 0;
+  }
+}
+
+
+/* SPECIFIC DEMO STYLE */
+/* DEMO 1 */
+
+.browser-mockup {
+  background: url(http://www.tomthepom.co.uk/images/email/mask2.png) no-repeat -9999px -9999px;
+}
+
+.browser-mockup .page-view {
+  background: url(http://www.tomthepom.co.uk/images/email/mask2.png) no-repeat -9999px -9999px;
+}
+
+.browser-mockup .page-view h1 {
+  font-family: 'besom';
+}
+
+.browser-mockup .page-view .project:nth-child(1) {
+  background-image: url(http://unsplash.it/600/450?image=1047);
+}
+
+.browser-mockup .page-view .project:nth-child(2) {
+  background-image: url(http://unsplash.it/600/450?image=1048);
+}
+
+.browser-mockup .page-view .project:nth-child(3) {
+  background-image: url(http://unsplash.it/600/450?image=1049);
+}
+
+.browser-mockup .page-view .project:nth-child(4) {
+  background-image: url(http://unsplash.it/600/450?image=1050);
+}
+
+.browser-mockup .page-view .project:nth-child(5) {
+  background-image: url(http://unsplash.it/600/450?image=1051);
+}
+
+.browser-mockup .page-view .project:nth-child(even).hide {
+  -webkit-mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+          mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+  -webkit-mask-size: 2500% 100%;
+          mask-size: 2500% 100%;
+  -webkit-animation: mask-play .3s steps(24) forwards;
+          animation: mask-play .3s steps(24) forwards;
+}
+
+.browser-mockup .page-view .project:nth-child(odd).hide {
+  -webkit-mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+          mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+  -webkit-mask-size: 2500% 100%;
+          mask-size: 2500% 100%;
+  -webkit-animation: mask-play .3s steps(24) forwards;
+          animation: mask-play .3s steps(24) forwards;
+}
+
+/* Fallback */
+.no-cssmask .page-view .project.hide {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+          transition: opacity .3s ease;
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+
+.shadow{
+  width: 500px;
+	height: 40px;
+  margin: 2em;
+background: -moz-radial-gradient(center, ellipse cover, rgba(214,214,214,0.5) 0%, rgba(255,255,255,0) 75%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(214,214,214,0.5) 0%,rgba(255,255,255,0) 75%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(214,214,214,0.5) 0%,rgba(255,255,255,0) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80d6d6d6', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-moz-border-radius: 250px / 20px;
+	-webkit-border-radius: 250px / 20px;
+	border-radius: 250px / 20px;
+}
