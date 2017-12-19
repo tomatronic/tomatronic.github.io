@@ -19,8 +19,8 @@ body{
 }
 
 .email{
-  position: absolute;
-  top: 0;
+  background-position: top center;
+  background-attachment:fixed;
   background: #2DC0B3; /* Old browsers */
   background: -moz-linear-gradient(45deg, #2DC0B3 0%, #00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #2DC0B3 0%,#00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* Chrome10-25,Safari5.1-6 */
