@@ -24,8 +24,7 @@ $(document).ready(function() {
 //function for arrow fade out
   $(window).scroll(function(){
       $(".scroll").css("opacity", 1 - $(window).scrollTop() / 250);
-      $('body').css("opacity", 1 - $(window).scrollTop() / 250);
-      $document.body.style.background = "linear-gradient(rgba(255, 255, 255, " + opac + "), rgba(255, 255, 255, " + opac + ")), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/times-square-perspective.jpg) no-repeat";
+      
     //250 is fade pixels
     });
 
