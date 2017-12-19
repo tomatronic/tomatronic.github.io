@@ -27,7 +27,7 @@ body{
   background: linear-gradient(45deg, rgba(45, 192, 179, 0.5) 0%,rgba(0, 188, 212, 0.5) 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DC0B3', endColorstr='#00BCD4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 /*******************Spacing***********************/
 
