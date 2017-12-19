@@ -490,6 +490,21 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
   padding: 10px 0px;
 }
 
+.footerRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.social a:nth-child(even){
+  margin-right: 10px;
+}
+
 
 @media (min-width: 550px) {
  .appIcon{
@@ -572,7 +587,7 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
   background-color: #f44;
   box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
 }
-    
+
 
 .browser-mockup > * {
   display: block;
