@@ -20,14 +20,13 @@ body{
 
 .email{
   background-position: top center;
-  background-attachment:fixed;
+  background-attachment: fixed;  
   background: #2DC0B3; /* Old browsers */
   background: -moz-linear-gradient(45deg, #2DC0B3 0%, #00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #2DC0B3 0%,#00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, rgba(45, 192, 179, 0.5) 0%,rgba(0, 188, 212, 0.5) 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DC0B3', endColorstr='#00BCD4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 /*******************Spacing***********************/
