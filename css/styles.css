@@ -593,7 +593,7 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
 }
 
 .browser-mockup {
-  margin: 2em;
+  margin: 2em auto;
   flex: 1;
 }
 
