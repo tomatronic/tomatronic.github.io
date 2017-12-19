@@ -24,7 +24,7 @@ $(document).ready(function() {
 //function for arrow fade out
   $(window).scroll(function(){
       $(".scroll").css("opacity", 1 - $(window).scrollTop() / 250);
-      $(".email").css("opacity", 1 - $(window).scrollTop() / 250);
+//       $(".email").css("opacity", 1 - $(window).scrollTop() / 250);
       
     //250 is fade pixels
     });
