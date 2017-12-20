@@ -580,7 +580,7 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
   position: absolute;
   content: '';
   top: -0.8em;
-  left: 0.7em;
+  left: 0.8em;
   width: 0.5em;
   height: 0.5em;
   border-radius: 50%;
@@ -669,7 +669,7 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(1) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/travelAlbera.png);
+  background-image: url(http://unsplash.it/600/450?image=1047);
 }
 
 .browser-mockup .page-view .project:nth-child(2) {
@@ -677,7 +677,7 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(3) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/campingInTheForest.png);
+  background-image: url(http://unsplash.it/600/450?image=1048);
 }
 
 .browser-mockup .page-view .project:nth-child(4) {
@@ -685,7 +685,7 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(5) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/amigo.png);
+  background-image: url(http://unsplash.it/600/450?image=1049);
 }
 
 .browser-mockup .page-view .project:nth-child(even).hide {
