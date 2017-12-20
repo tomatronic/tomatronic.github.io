@@ -669,7 +669,7 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(1) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/petDrug.png);
+  background-image: url(http://unsplash.it/600/450?image=1049);
 }
 
 .browser-mockup .page-view .project:nth-child(2) {
@@ -685,7 +685,7 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(5) {
-  background-image: url(http://unsplash.it/600/450?image=1049);
+  background-image: url(http://www.tomthepom.co.uk/images/email/amigo.png);
 }
 
 .browser-mockup .page-view .project:nth-child(even).hide {
