@@ -566,12 +566,12 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
 
 /*********CODE FOR EMAIL SLIDESHOW**********/
 .browser-mockup {
-  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  border-top: 1em solid rgba(230, 230, 230, 0.7);
   box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
   position: relative;
   border-radius: 3px 3px 0 0;
-  max-width: 500px;
-  height: 300px;
+  max-width: 300px;
+  height: 225px;
   animation: twist 2s 1s infinite;
 }
 
@@ -579,13 +579,13 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
   display: block;
   position: absolute;
   content: '';
-  top: -1.25em;
-  left: 1em;
+  top: -0.8em;
+  left: 0.7em;
   width: 0.5em;
   height: 0.5em;
   border-radius: 50%;
   background-color: #f44;
-  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  box-shadow: 0 0 0 0.5px #f44, 1.5em 0 0 0.5px #9b3, 3em 0 0 0.5px #fb5;
 }
 
 
@@ -669,23 +669,23 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(1) {
-  background-image: url(http://unsplash.it/600/450?image=1047);
+  background-image: url(http://www.tomthepom.co.uk/images/email/travelAlbera.png);
 }
 
 .browser-mockup .page-view .project:nth-child(2) {
-  background-image: url(http://unsplash.it/600/450?image=1048);
+  background-image: url(http://www.tomthepom.co.uk/images/email/skiClub.png);
 }
 
 .browser-mockup .page-view .project:nth-child(3) {
-  background-image: url(http://unsplash.it/600/450?image=1049);
+  background-image: url(http://www.tomthepom.co.uk/images/email/campingInTheForest.png);
 }
 
 .browser-mockup .page-view .project:nth-child(4) {
-  background-image: url(http://unsplash.it/600/450?image=1050);
+  background-image: url(http://www.tomthepom.co.uk/images/email/cakeInternational.png);
 }
 
 .browser-mockup .page-view .project:nth-child(5) {
-  background-image: url(http://unsplash.it/600/450?image=1051);
+  background-image: url(http://www.tomthepom.co.uk/images/email/amigo.png);
 }
 
 .browser-mockup .page-view .project:nth-child(even).hide {
