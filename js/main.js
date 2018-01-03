@@ -25,12 +25,26 @@ $(document).ready(function() {
   $(window).scroll(function(){
       $(".scroll").css("opacity", 1 - $(window).scrollTop() / 250);
       $(".email").css("opacity", 1 - $(window).scrollTop() / 250);
-      
+
     //250 is fade pixels
     });
-
-
 });
+
+var total = 25 , container = document.getElementById('container'),w = container.offsetWidth , h = container.offsetHeight;
+
+for (var i=0 , div ; i<total; i++){
+  var randomTop = Math.floor(Math.random() * h);
+  var randomLeft = Math.floor(Math.random() * w);
+  var width = Math.floor(Math.random() * 140) +'px';
+  div = document.createElement('div');
+  div.className='square';
+  div.style.zIndex = '-1px';
+  div.style.width = width;
+  div.style.height = width;
+  div.style.top = randomTop + 'px';
+  div.style.left = randomLeft + 'px';
+  container.appendChild(div);
+ };
 
 //Code for custom email slideshow
 "use strict";
@@ -85,7 +99,7 @@ var Core;
                     return;
                 self.processBtn($(this));
             });
-        };       
+        };
         /**
          * Update next global index
          */
