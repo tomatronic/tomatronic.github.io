@@ -18,17 +18,6 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.email{
-  top: 0;
-  background: #2DC0B3; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #2DC0B3 0%, #00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #2DC0B3 0%,#00BCD4 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, rgba(45, 192, 179, 0.5) 0%,rgba(0, 188, 212, 0.5) 100%), url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/email_bg.png); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2DC0B3', endColorstr='#00BCD4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
 /*******************Spacing***********************/
 
 .pb30{
@@ -41,7 +30,7 @@ body{
   }
 
 .full-width{
-  margin: 0 -30px 30px;
+  margin: 50px -50px;
   width: auto;
 }
 
@@ -305,16 +294,34 @@ display: none;
   }
 }
 
-.outer-intro>.container{
-  position: relative;
-  top: calc(50% - 60px);
+#container{
+  position: fixed;
+  width:100%;
+  height: 100%;
+  margin-top: -250px;
+  z-index: 0;
+}
+
+.square{
+  position: absolute;
+  z-index: -1px;
+  background: #36d1dc;
+    background: -moz-linear-gradient(45deg, #36d1dc 0%, #5B86E5 100%);
+    background: -webkit-linear-gradient(45deg, #36d1dc 0%,#5B86E5 100%);
+    background: linear-gradient(45deg, #36d1dc 0%,#5B86E5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36d1dc', endColorstr='#5B86E5',GradientType=1 );
+    background-repeat: no-repeat;
+  transform: rotate(45deg);
 }
 
 .intro {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width:900px;
+    position: relative;
+    top: calc(50% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 900px;
+    z-index: 999;
 }
 
 .main-content{
@@ -327,7 +334,7 @@ display: none;
   float: left;
   overflow: hidden;
   min-width: 230px;
-  max-width: 315px;
+  max-width: 305px;
   width: 100%;
   color: #FFF;
   text-align: left;
@@ -426,7 +433,6 @@ display: none;
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 350px;
 }
 
 .containerPortfolio{
@@ -435,7 +441,7 @@ display: none;
   width: 100%;
   max-width: 1024px;
   margin: 30px auto 0px;
-  padding: 30px;
+  padding: 30px 50px 30px;
   box-sizing: border-box;
   -webkit-box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
 -moz-box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
@@ -483,6 +489,7 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
 
 
 .footer{
+  position: relative;
   width: 100%;
   background-color: #FFFFFF;
   margin-top: 30px;
@@ -569,8 +576,8 @@ box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.3);
   box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
   position: relative;
   border-radius: 3px 3px 0 0;
-  max-width: 300px;
-  height: 200px;
+  max-width: 400px;
+  height: 270px;
   animation: twist 2s 1s infinite;
 }
 
@@ -656,11 +663,11 @@ img {
 }
 
 .browser-mockup {
-  background: url(http://www.tomthepom.co.uk/images/email/mask2.png) no-repeat -9999px -9999px;
+  background: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png) no-repeat -9999px -9999px;
 }
 
 .browser-mockup .page-view {
-  background: url(http://www.tomthepom.co.uk/images/email/mask2.png) no-repeat -9999px -9999px;
+  background: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png) no-repeat -9999px -9999px;
 }
 
 .browser-mockup .page-view h1 {
@@ -668,28 +675,28 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(1) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/skiClub.png);
+  background-image: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/skiClub2.png);
 }
 
 .browser-mockup .page-view .project:nth-child(2) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/travelAberta.png);
+  background-image: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/travelAberta2.png);
 }
 
 .browser-mockup .page-view .project:nth-child(3) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/campingInTheForest.png);
+  background-image: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/campingInTheForest2.png);
 }
 
 .browser-mockup .page-view .project:nth-child(4) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/cakeInternational.png);
+  background-image: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/cakeInternational2.png);
 }
 
 .browser-mockup .page-view .project:nth-child(5) {
-  background-image: url(http://www.tomthepom.co.uk/images/email/amigo.png);
+  background-image: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/amigo2.png);
 }
 
 .browser-mockup .page-view .project:nth-child(even).hide {
-  -webkit-mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
-          mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+  -webkit-mask: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png);
+          mask: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png);
   -webkit-mask-size: 2500% 100%;
           mask-size: 2500% 100%;
   -webkit-animation: mask-play .3s steps(24) forwards;
@@ -697,8 +704,8 @@ img {
 }
 
 .browser-mockup .page-view .project:nth-child(odd).hide {
-  -webkit-mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
-          mask: url(http://www.tomthepom.co.uk/images/email/mask2.png);
+  -webkit-mask: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png);
+          mask: url(https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/mask2.png);
   -webkit-mask-size: 2500% 100%;
           mask-size: 2500% 100%;
   -webkit-animation: mask-play .3s steps(24) forwards;
