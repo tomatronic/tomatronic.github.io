@@ -43,6 +43,7 @@ for (var i=0 , div ; i<total; i++){
   div.style.height = width;
   div.style.top = randomTop + 'px';
   div.style.left = randomLeft + 'px';
+  div.style.webkitFilter = "blur(width)";
   container.appendChild(div);
  };
 
