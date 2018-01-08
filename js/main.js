@@ -36,6 +36,7 @@ for (var i=0 , div ; i<total; i++){
   var randomTop = Math.floor(Math.random() * h);
   var randomLeft = Math.floor(Math.random() * w);
   var width = Math.floor(Math.random() * 140) +'px';
+  var blur = Math.floor(Math.random() * 10) +'px';
   div = document.createElement('div');
   div.className='square';
   div.style.zIndex = '-1px';
@@ -43,7 +44,7 @@ for (var i=0 , div ; i<total; i++){
   div.style.height = width;
   div.style.top = randomTop + 'px';
   div.style.left = randomLeft + 'px';
-  div.style.filter = "blur(width)";
+  div.style.filter = 'blur(' + blur + ')';
   container.appendChild(div);
  };
 
