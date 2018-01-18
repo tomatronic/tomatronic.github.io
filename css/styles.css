@@ -454,7 +454,7 @@ display: none;
     width: calc(33.3333% - 10px);
   }
 
-  .shots .dailyuiItem img{
+.dailyuiItem img{
     min-height: 224px;
   }
 }
