@@ -436,21 +436,21 @@ display: none;
 }
 
 @media screen and (min-width: 600px){
-  .projectGallery{
+  .projectGallery, .shots{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
 
-  .portfolioItem{
+  .portfolioItem, .dailyuiItem{
     width: calc(50% - 10px);
   }
   
 }
 
 @media screen and (min-width: 1000px){
-  .portfolioItem{
+  .portfolioItem, .dailyuiItem{
     width: calc(33.3333% - 10px);
   }
   
