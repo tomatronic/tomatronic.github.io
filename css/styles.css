@@ -446,14 +446,17 @@ display: none;
   .portfolioItem, .dailyuiItem{
     width: calc(50% - 10px);
   }
-  
+
 }
 
 @media screen and (min-width: 1000px){
   .portfolioItem, .dailyuiItem{
     width: calc(33.3333% - 10px);
   }
-  
+
+  .shots{
+    min-height: 224px;
+  }  
 }
 
 .containerPortfolio{
