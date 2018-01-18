@@ -454,9 +454,9 @@ display: none;
     width: calc(33.3333% - 10px);
   }
 
-  .shots{
+  .shots .dailyuiItem img{
     min-height: 224px;
-  }  
+  }
 }
 
 .containerPortfolio{
