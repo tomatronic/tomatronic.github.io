@@ -66,6 +66,39 @@ body{
   font-size: 20px;
 }
 
+.quote3{
+  background: url('https://www.uploadlibrary.com/tomspencer/Skeleton-2.0.4/images/email/quote1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote3 h3{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #FFFFFF;
+  padding: 0px 30px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.quote3 h4{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #FFFFFF;
+  padding: 60px 30px 10px;
+  max-width: 680px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+
+.quote3 .underline-center{
+  border-bottom: 3px solid #FFFFFF;
+}
+
+
+
 /*******************Typograhpy***********************/
 
 h1{
