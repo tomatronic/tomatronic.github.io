@@ -5,6 +5,8 @@ html{
 
 body{
   height: 100%;
+  width: auto;
+  max-width: 100vh;
   margin: 0;
   background: #5B86E5; /* Old browsers */
   background: -moz-linear-gradient(45deg, #5B86E5 0%, #36d1dc 100%); /* FF3.6-15 */
