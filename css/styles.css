@@ -272,10 +272,6 @@ h5 {
   .menu-toggle {
     display: none;
   }
-
-  .pb30{
-    padding-bottom: 30px;
-  }
 }
 
 
@@ -480,6 +476,12 @@ h5 {
   }
   .dailyuiItem img {
     min-height: 224px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .pb30{
+    padding-bottom: 30px;
   }
 }
 
