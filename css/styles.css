@@ -421,6 +421,7 @@ h5 {
 }
 
 .portfolioItem h3 {
+  font-size: 24px;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   text-transform: uppercase;
