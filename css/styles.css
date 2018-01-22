@@ -27,10 +27,6 @@ body {
 
 /*******************Spacing***********************/
 
-.pb30 {
-  padding-bottom: 30px;
-}
-
 .pb50 {
   padding-bottom: 30px;
 }
@@ -275,6 +271,10 @@ h5 {
   }
   .menu-toggle {
     display: none;
+  }
+
+  .pb30{
+    padding-bottom: 30px;
   }
 }
 
