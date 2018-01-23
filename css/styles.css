@@ -28,7 +28,7 @@ body {
 /*******************Spacing***********************/
 
 .pb50 {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .flexSwitch {
@@ -277,7 +277,7 @@ h5 {
 
 /*******************Main Styles***********************/
 
-.outer-intro {
+.outer-intro{
   position: relative;
   display: block;
   height: 100vh;
@@ -363,7 +363,6 @@ h5 {
   position: relative;
   overflow: hidden;
   min-width: 230px;
-  max-width: 305px;
   width: 100%;
   color: #FFF;
   text-align: left;
@@ -804,4 +803,39 @@ img {
   -moz-border-radius: 250px / 20px;
   -webkit-border-radius: 250px / 20px;
   border-radius: 250px / 20px;
+}
+
+
+/*************Article Layout New******************/
+.main-content{
+  background-color: #FFF;
+}
+
+.portfolioContain{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+.outer-intro-portfolio {
+  position: relative;
+  display: block;
+  height: 40vh;
+  width: 100vw;
+}
+
+.outer-intro-portfolio .intro{
+  position: relative;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 999;
+}
+
+.testImage{
+  margin-left: -200px;
+  width: calc(100% + 200px);
 }
