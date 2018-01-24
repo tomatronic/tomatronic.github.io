@@ -22,6 +22,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 
@@ -408,6 +409,7 @@ h5 {
   text-transform: uppercase;
   font-weight: 400;
   color: #FFF;
+  text-align: center;
 }
 
 .portfolioItem h3, .portfolioItem h5 {
@@ -806,6 +808,7 @@ img {
 /*************Article Layout New******************/
 .main-content{
   background-color: #FFF;
+  padding: 0px 20px;
 }
 
 .portfolioContain{
@@ -835,4 +838,9 @@ img {
 .testImage{
   margin-left: -200px;
   width: calc(100% + 200px);
+}
+@media screen and (min-width: 600px) {
+  .main-content{
+    padding: 0px;
+  }
 }
