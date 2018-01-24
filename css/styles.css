@@ -834,12 +834,25 @@ img {
   z-index: 999;
 }
 
-.testImage{
+.leftImgLrg{
   margin-left: -200px;
   width: calc(100% + 200px);
 }
+
+.rightImgLrg{
+  margin-right: -200px;
+  width: calc(100% + 200px);
+}
+
+
 @media screen and (min-width: 600px) {
   .main-content{
     padding: 0px;
   }
+
+  .rightImgLrg{
+    width: 100%;
+  }
+
+
 }
