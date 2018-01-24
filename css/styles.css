@@ -857,6 +857,14 @@ img {
   z-index: 999;
 }
 
+.banner{
+  min-height: 650px;
+  background-image: url(../images/mountainBanner.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
 .leftImgLrg{
   margin-left: -200px;
   width: calc(100% + 200px);
