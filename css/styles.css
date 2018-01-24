@@ -157,6 +157,9 @@ h5 {
   h2 {
     font-size: 3vw;
   }
+  .intro-main{
+    top: 50%;
+  }
 }
 
 
