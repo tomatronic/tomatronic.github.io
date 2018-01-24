@@ -862,6 +862,7 @@ img {
   background-image: url(../images/mountainBanner.png);
   background-repeat: no-repeat;
   background-position: top;
+  background-position: left;
   background-size: cover;
 }
 
