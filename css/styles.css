@@ -861,9 +861,12 @@ img {
   min-height: 650px;
   background-image: url(../images/mountainBanner.png);
   background-repeat: no-repeat;
-  background-position: top;
   background-position: left;
   background-size: cover;
+}
+
+.banner .six{
+  padding: 40px 0px;
 }
 
 .leftImgLrg{
