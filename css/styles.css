@@ -368,7 +368,8 @@ h5 {
   text-align: left;
   font-size: 16px;
   background-color: #000;
-  margin: 5px auto;
+  width: calc(50% - 10px);
+  margin: 5px;
 }
 
 .portfolioItem *, .dailyuiItem * {
@@ -462,10 +463,6 @@ h5 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-  }
-  .portfolioItem, .dailyuiItem {
-    width: calc(50% - 10px);
-    margin: 5px;
   }
 }
 
