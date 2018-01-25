@@ -526,7 +526,7 @@ h5 {
   text-align: center;
   font-size: 16px;
   color: #62D6E5;
-  padding-top: 30px;
+  padding: 30px 0px 50px;
 }
 
 .contact a {
@@ -865,10 +865,12 @@ img {
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+  margin-top: 50px;
 }
 
 .banner .eight{
-  padding: 40px 0px;
+  background-color: rgba(240,239,240,0.8);
+  padding: 40px;
 }
 
 .banner .portfolioContain{
@@ -888,8 +890,12 @@ img {
 
 
 @media screen and (min-width: 600px) {
+  .banner .eight{
+    background-color: rgba(240,239,240,0);
+  }
+
   .portfolioContain{
-    padding: 0px;
+    padding: 50px 0px 0px;;
   }
 
   .rightImgLrg{
