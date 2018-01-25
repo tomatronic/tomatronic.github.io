@@ -820,14 +820,15 @@ img {
 /*************Article Layout New******************/
 .main-content{
   background-color: #FFF;
-  padding: 0px 20px;
+  padding: 0px;
 }
 
 .portfolioContain{
   width: 100%;
   max-width: 1140px;
   margin: 0px auto;
-  padding: 50px 0px;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
 .outer-intro-portfolio {
@@ -887,7 +888,7 @@ img {
 
 
 @media screen and (min-width: 600px) {
-  .main-content{
+  .portfolioContain{
     padding: 0px;
   }
 
