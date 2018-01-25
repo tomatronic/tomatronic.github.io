@@ -858,6 +858,7 @@ img {
 }
 
 .banner{
+  display: flex;
   min-height: 650px;
   background-image: url(../images/mountainBanner.png);
   background-repeat: no-repeat;
@@ -865,8 +866,13 @@ img {
   background-size: cover;
 }
 
-.banner .six{
+.banner .eight{
   padding: 40px 0px;
+}
+
+.banner .portfolioContain{
+  display: flex;
+  align-items: center;
 }
 
 .leftImgLrg{
