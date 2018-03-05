@@ -46,6 +46,13 @@ body {
   background: url('../images/email/quote1.png');
   background-repeat: no-repeat;
   background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    clear: both;
+    box-sizing: border-box;
+    margin: 100px 0px;
+
 }
 
 .quote1 h3 {
@@ -54,8 +61,10 @@ body {
   padding: 60px 30px;
   max-width: 680px;
   margin: 0 auto;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
 }
 
 .quote2 {
@@ -903,4 +912,25 @@ img {
   }
 
 
+}
+
+/******Preference Centre**/
+
+.quote1 .portfolioContain{
+  padding: 0px;
+}
+
+.pref-perspective{
+  position: absolute;
+   display: block;
+   top: -80px;
+   /* bottom: 3000px; */
+   bottom: -80px;
+   left: 45%;
+   right: 0;
+   margin-left: 40px;
+   background-image: url(../images/preferences/perspective.png);
+   background-repeat: no-repeat;
+   background-position: 0px 100%;
+   background-size: auto 100%;
 }
