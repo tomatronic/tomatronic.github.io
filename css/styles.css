@@ -67,6 +67,14 @@ body {
   text-align: left;
 }
 
+.quote1 h4{
+  color: #FFFFFF;
+}
+
+.quote1 .underline{
+  border-bottom: 3px solid #FFFFFF;
+}
+
 .quote2 {
   background: url('../images/email/quote2.png');
   background-repeat: no-repeat;
@@ -112,6 +120,22 @@ body {
 
 .quote3 .underline-center {
   border-bottom: 3px solid #FFFFFF;
+}
+
+.quote4 {
+  background: url('../images/email/quote1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote4 h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #FFFFFF;
+  padding: 60px 30px;
+  max-width: 680px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 
