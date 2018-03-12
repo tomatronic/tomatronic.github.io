@@ -39,11 +39,6 @@ body {
   flex-direction: column-reverse;
 }
 
-.full-width {
-  margin: 50px -50px;
-  width: auto;
-}
-
 .quote1 {
   background: url('../images/email/quote1.png');
   background-repeat: no-repeat;
