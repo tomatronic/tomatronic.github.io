@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 html {
   height: 100%;
   box-sizing: border-box;
@@ -56,7 +56,7 @@ body {
 }
 
 .quote1 h3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   padding: 0px;
   max-width: 680px;
@@ -82,7 +82,7 @@ body {
 }
 
 .quote2 h3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   padding: 60px 30px;
   max-width: 680px;
@@ -98,7 +98,7 @@ body {
 }
 
 .quote3 h3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   padding: 0px 30px 60px;
   max-width: 680px;
@@ -108,7 +108,7 @@ body {
 }
 
 .quote3 h4 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   padding: 60px 30px 10px;
   max-width: 680px;
@@ -129,7 +129,7 @@ body {
 }
 
 .quote4 h3 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   padding: 60px 30px;
   max-width: 680px;
@@ -142,7 +142,7 @@ body {
 /*******************Typograhpy***********************/
 
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 64px;
   text-align: center;
   text-transform: uppercase;
@@ -152,7 +152,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   text-align: center;
   color: #FFFFFF;
@@ -160,7 +160,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #62D6E5;
   text-align: center;
@@ -168,7 +168,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #62D6E5;
   text-align: left;
@@ -177,7 +177,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   color: #62D6E5;
   text-align: left;
@@ -217,7 +217,7 @@ h5 {
 .navbar .logo {
   display: block;
   float: left;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: lighter;
@@ -407,7 +407,7 @@ h5 {
 }
 
 .portfolioItem, .dailyuiItem {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   overflow: hidden;
   width: 100%;
