@@ -89,8 +89,8 @@ body {
   padding: 60px 30px;
   max-width: 680px;
   margin: 0 auto;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .quote3 {
@@ -105,8 +105,8 @@ body {
   padding: 0px 30px 60px;
   max-width: 680px;
   margin: 0 auto;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .quote3 h4 {
@@ -136,8 +136,8 @@ body {
   padding: 60px 30px;
   max-width: 680px;
   margin: 0 auto;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 
@@ -472,7 +472,7 @@ h5 {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bold;
   color: #FFF;
   margin: 5px;
 }
