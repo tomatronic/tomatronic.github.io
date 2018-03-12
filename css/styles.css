@@ -692,7 +692,7 @@ h5 {
 }
 
 .browser-mockup {
-  margin: 2em auto;
+  margin: 0 auto;
   flex: 1;
 }
 
@@ -932,7 +932,7 @@ img {
   }
 
   .portfolioContain{
-    padding: 50px 0px 0px;;
+    padding: 150px 0px 0px;
   }
 
   .rightImgLrg{
@@ -940,6 +940,10 @@ img {
   }
 
 
+}
+
+.portfolioContain .row{
+  padding-bottom: 150px;
 }
 
 /******Preference Centre**/
