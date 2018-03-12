@@ -887,7 +887,7 @@ img {
     background-color: rgba(240,239,240,0);
   }
 
-  .portfolioContain{
+  .portfolioContain .section:first-child{
     padding: 150px 0px 0px;
   }
 
