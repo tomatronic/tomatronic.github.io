@@ -380,7 +380,7 @@ h5 {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bold;
   color: #FFF;
   text-align: center;
 }
