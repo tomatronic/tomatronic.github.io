@@ -27,6 +27,10 @@ body {
   line-height: 25px;
 }
 
+p{
+  margin-bottom: 0px;
+}
+
 
 /*******************Spacing***********************/
 
