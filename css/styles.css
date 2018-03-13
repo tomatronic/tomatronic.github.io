@@ -928,4 +928,8 @@ img {
   .pb30{
     padding-bottom: 30px;
   }
+
+  .portfolioItem h3 {
+    font-size: 16px;
+  }
 }
