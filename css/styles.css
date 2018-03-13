@@ -891,6 +891,10 @@ img {
     padding: 125px 0px;
   }
 
+  .section{
+    padding-bottom: 150px;
+  }
+
   .rightImgLrg{
     width: calc(100% + 200px);
   }
@@ -899,7 +903,7 @@ img {
 }
 
 .section{
-  padding-bottom: 125px;
+  padding: 50px 0px;
 }
 
 /******Preference Centre**/
