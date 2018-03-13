@@ -64,7 +64,7 @@ p{
   margin: 0 auto;
   font-weight: normal;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 24px;
   text-align: left;
 }
 
@@ -89,7 +89,7 @@ p{
   max-width: 680px;
   margin: 0 auto;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .quote3 {
@@ -186,17 +186,7 @@ h5 {
   margin: 0;
 }
 
-@media (max-width: 1000px) {
-  h1{
-    font-size: 6vw;
-  }
-  h2 {
-    font-size: 3vw;
-  }
-  .intro-main{
-    top: 50%;
-  }
-}
+
 
 
 /*******************Top Navigation***********************/
@@ -285,36 +275,6 @@ h5 {
   font-weight: bold;
 }
 
-@media (min-width: 600px) {
-  .flex {
-    display: flex;
-    align-items: center;
-  }
-  .flexSwitch {
-    flex-direction: row;
-  }
-  .nav {
-    width: 60%;
-  }
-  .nav ul {
-    list-style: none;
-    overflow: hidden;
-    text-align: right;
-    float: right;
-    padding: 0;
-  }
-  .nav ul li {
-    margin-left: 35px;
-    display: inline-block;
-    line-height: 1.5;
-    width: auto;
-    padding: 0;
-  }
-  .menu-toggle {
-    display: none;
-  }
-}
-
 
 /*******************Main Styles***********************/
 
@@ -367,6 +327,10 @@ h5 {
 
 .main-content {
   position: relative;
+}
+
+.section{
+  padding: 50px 0px;
 }
 
 .portfolioItem, .dailyuiItem {
@@ -468,30 +432,6 @@ h5 {
   max-width: 100%;
 }
 
-@media screen and (min-width: 600px) {
-  .projectGallery, .shots {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .portfolioItem, .dailyuiItem {
-    width: calc(33.3333% - 10px);
-  }
-  .dailyuiItem img {
-    min-height: 224px;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .pb30{
-    padding-bottom: 30px;
-  }
-}
-
 .containerPortfolio {
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -566,16 +506,8 @@ h5 {
   margin-right: 15px;
 }
 
-@media (min-width: 600px) {
-  .appIcon {
-    max-width: 80px;
-    margin: 0 auto;
-    float: left;
-  }
-}
 
-
-/******DRIBBBLE RENDERING******/
+/******DRIBBBLE GALLERY RENDERING******/
 
 .shots {
   display: flex;
@@ -596,21 +528,6 @@ h5 {
 
 .shots--title {
   display: none;
-}
-
-@media (min-width: 600px) {
-  .shots--shot {
-    width: 25%;
-    margin: 0;
-  }
-  .shots--title {
-    display: block;
-    color: #222222;
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 24px;
-    text-align: center;
-  }
 }
 
 .shots--shot img {
@@ -886,31 +803,7 @@ img {
 }
 
 
-@media screen and (min-width: 600px) {
-  .banner .eight{
-    background-color: rgba(240,239,240,0);
-  }
-
-  .portfolioContain .section:first-child{
-    padding: 125px 0px;
-  }
-
-  .section{
-    padding-bottom: 150px;
-  }
-
-  .rightImgLrg{
-    width: calc(100% + 200px);
-  }
-
-
-}
-
-.section{
-  padding: 50px 0px;
-}
-
-/******Preference Centre**/
+/******Preference Centre Page Only**/
 
 .quote1 .portfolioContain{
   padding: 0px;
@@ -929,4 +822,110 @@ img {
    background-repeat: no-repeat;
    background-position: 0px 100%;
    background-size: auto 100%;
+}
+
+
+/**********Media Queries**********/
+
+/*Greater than 1000px*/
+@media screen and (min-width: 1000px) {
+  .portfolioItem, .dailyuiItem {
+    width: calc(33.3333% - 10px);
+  }
+  .dailyuiItem img {
+    min-height: 224px;
+  }
+}
+
+/*Less than 1000px*/
+@media (max-width: 1000px) {
+  h1{
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  .intro-main{
+    top: 50%;
+  }
+}
+
+/*Greater than 600px*/
+@media screen and (min-width: 600px) {
+  .appIcon {
+    max-width: 80px;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .projectGallery, .shots {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shots--shot {
+    width: 25%;
+    margin: 0;
+  }
+  .shots--title {
+    display: block;
+    color: #222222;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .flexSwitch {
+    flex-direction: row;
+  }
+  .nav {
+    width: 60%;
+  }
+  .nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+    padding: 0;
+  }
+  .nav ul li {
+    margin-left: 35px;
+    display: inline-block;
+    line-height: 1.5;
+    width: auto;
+    padding: 0;
+  }
+  .menu-toggle {
+    display: none;
+  }
+
+  .banner .eight{
+    background-color: rgba(240,239,240,0);
+  }
+
+  .portfolioContain .section:first-child{
+    padding: 125px 0px;
+  }
+
+  .section{
+    padding-bottom: 150px;
+  }
+
+  .rightImgLrg{
+    width: calc(100% + 200px);
+  }
+}
+
+/*Less than 600px*/
+@media screen and (max-width: 600px){
+  .pb30{
+    padding-bottom: 30px;
+  }
 }
