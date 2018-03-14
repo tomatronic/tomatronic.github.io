@@ -329,9 +329,6 @@ h5 {
   position: relative;
 }
 
-.section{
-  padding: 50px 0px;
-}
 
 .portfolioItem, .dailyuiItem {
   font-family: 'Montserrat', sans-serif;
@@ -932,5 +929,17 @@ img {
 
   .portfolioItem h3, .dailyuiItem .caption {
     font-size: 16px;
+  }
+
+  .section{
+    padding: 50px 0px;
+  }
+
+  .pref-perspective{
+    display: none;
+  }
+
+  .mobile-padding{
+    padding: 0px 20px;
   }
 }
