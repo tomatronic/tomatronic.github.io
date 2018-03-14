@@ -186,7 +186,9 @@ h5 {
   margin: 0;
 }
 
-
+.center{
+  text-align: center;
+}
 
 
 /*******************Top Navigation***********************/
