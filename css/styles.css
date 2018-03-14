@@ -942,4 +942,8 @@ img {
   .mobile-padding{
     padding: 0px 20px;
   }
+
+  .quote1{
+    margin: 0px;
+  }
 }
