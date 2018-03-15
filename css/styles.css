@@ -139,6 +139,12 @@ p{
   font-size: 16px;
 }
 
+.wide-pref{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
 
 /*******************Typograhpy***********************/
 
