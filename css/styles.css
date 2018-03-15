@@ -755,6 +755,7 @@ img {
   position: relative;
   display: block;
   height: 40vh;
+  min-height: 550px;
   width: 100vw;
 }
 
@@ -953,5 +954,9 @@ img {
 
   .quote1{
     margin: 0px;
+  }
+
+  .outer-intro-portfolio {
+    min-height: none;
   }
 }
