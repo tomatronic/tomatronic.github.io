@@ -484,7 +484,7 @@ h5 {
 
 .appIcon {
   max-width: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 125px;
   float: none;
   margin: 0 auto;
 }
@@ -954,6 +954,13 @@ img {
 
   .quote1{
     margin: 0px;
+  }
+
+  .appIcon {
+    max-width: 80px;
+    padding-bottom: 30px;
+    float: none;
+    margin: 0 auto;
   }
 
   .outer-intro-portfolio {
